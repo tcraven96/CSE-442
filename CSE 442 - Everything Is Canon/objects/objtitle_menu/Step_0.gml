@@ -21,6 +21,9 @@ else if(position_meeting(mouse_x, mouse_y, objtitle_loadgame_hoverbox)){
 //exit hovered over
 else if(position_meeting(mouse_x, mouse_y, objtitle_exit_hoverbox)){
 	sprite_index = sprtitle_menu_exit;
+	if(mouse_check_button_pressed(true)){
+		game_end();
+	}
 }
 
 

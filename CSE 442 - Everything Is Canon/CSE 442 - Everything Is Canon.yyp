@@ -90,7 +90,7 @@
             "Key": "193bc817-a003-4b6c-b6ec-9617a38e2643",
             "Value": {
                 "id": "67ed2e4c-faf3-4886-ae5b-5a62f4b59032",
-                "resourcePath": "objects\\music\\music.yy",
+                "resourcePath": "objects\\obj1_rm1_music\\obj1_rm1_music.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "6f777689-83af-4841-959b-b6d6687fab38",
+            "Value": {
+                "id": "74007daa-796c-4b9e-847b-200b509ccea6",
+                "resourcePath": "objects\\objtitle_music\\objtitle_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "757b2b0d-33d1-422b-a23c-0adcc8e691c8",
             "Value": {
                 "id": "4cc0acfb-951e-4d79-8729-37cf0ce1b505",
@@ -308,6 +316,14 @@
                 "id": "f0b2ceb1-6149-414b-a73a-fc498c1b7aec",
                 "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a67f21db-f2ea-48a6-bb9d-09c922e35b82",
+            "Value": {
+                "id": "9fb27a00-a445-4ef6-b67f-1d268a137756",
+                "resourcePath": "sounds\\snd_title_screen\\snd_title_screen.yy",
+                "resourceType": "GMSound"
             }
         },
         {
