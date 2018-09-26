@@ -3,9 +3,7 @@
     "modelName": "GMProject",
     "mvc": "1.0",
     "IsDnDProject": false,
-    "configs": [
-        
-    ],
+    "configs": [],
     "option_ecma": false,
     "parentProject": {
         "id": "67092c16-3677-43c6-91eb-94245439ac23",
@@ -24,9 +22,7 @@
                 }
             }
         ],
-        "hiddenResources": [
-            
-        ],
+        "hiddenResources": [],
         "projectPath": "${base_project}"
     },
     "resources": [
@@ -469,10 +465,32 @@
                 "resourcePath": "sprites\\sprtitle_snow\\sprtitle_snow.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "482f73f2-15cf-46a5-8184-3fb9e2873b9b",
+            "Value": {
+                "id": "33e20753-75a2-42da-a1db-847aa2189c16",
+                "resourcePath": "sprites\\sprsword\\sprsword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d89a982-701d-40c8-8131-57c6021338e3",
+            "Value": {
+                "id": "c28e6ac0-c997-4f52-b5f0-7370b5e0ebfb",
+                "resourcePath": "objects\\objsword\\objsword.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "98db64c4-e66f-4403-a4bf-9595c65275a5",
+            "Value": {
+                "id": "19a8cf7c-13fc-4b47-8fc2-02ec233e76cd",
+                "resourcePath": "views\\98db64c4-e66f-4403-a4bf-9595c65275a5.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
-    "script_order": [
-        
-    ],
+    "script_order": [],
     "tutorial": ""
 }
