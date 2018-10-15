@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+//initializes sword cooldown and invulnerability frames
 cooldown =0;
+inv_frames = 0;

@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
+        },
+        {
+            "id": "0e4448dd-d07c-4aef-8c3e-919b59de0718",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
+        },
+        {
+            "id": "e2a7ca07-3e51-4231-beb3-676eaab4fc1a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "d9e830e0-884f-460a-9a2c-752c8ca5005e",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -54,6 +74,34 @@
             "resourceFilter": 1023,
             "value": "12",
             "varName": "walking_speed",
+            "varType": 1
+        },
+        {
+            "id": "8576e44a-9bd2-4702-94c4-5496ff3e3811",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "max_health",
+            "varType": 1
+        },
+        {
+            "id": "d9ea616d-b4f2-4513-b454-2283397279d6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "curr_health",
             "varType": 1
         }
     ],

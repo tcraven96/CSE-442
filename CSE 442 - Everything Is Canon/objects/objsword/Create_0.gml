@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-frames = 10
+//initializes swinging frames and can_hit
+frames = 10;
+can_hit = true;

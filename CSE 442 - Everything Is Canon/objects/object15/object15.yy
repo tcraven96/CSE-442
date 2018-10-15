@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "d9e830e0-884f-460a-9a2c-752c8ca5005e"
+        },
+        {
+            "id": "9480d6b3-363d-4333-93f2-f6a7fa166fb9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d9e830e0-884f-460a-9a2c-752c8ca5005e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -82,7 +92,35 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "3",
-            "varName": "hp",
+            "varName": "max_health",
+            "varType": 1
+        },
+        {
+            "id": "2d6ea3ee-6934-4000-b4b2-578ea7b1c929",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "curr_health",
+            "varType": 1
+        },
+        {
+            "id": "c3ed33b3-6d8f-4aaa-ae44-4f1b7bdcc450",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "enemy_speed",
             "varType": 1
         }
     ],

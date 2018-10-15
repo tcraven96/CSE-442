@@ -1,6 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-with(other){
-	hp -= 1;
+//decrements enemy health and sets can_hit bool to false
+if(can_hit)
+{
+	with(other){
+		curr_health--;
+	}
 }
-instance_destroy();
+can_hit = false;
