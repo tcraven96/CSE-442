@@ -16,7 +16,8 @@
         "a50fb53c-7a19-44a3-bd69-2841997ed660",
         "81608f1d-f439-4a98-85ff-a2f6619402e4",
         "37fcc31f-5fe9-4a73-b6ab-a7602811d590",
-        "65d6b93d-d4e8-4ecf-9ac7-b81d5d47065f"
+        "65d6b93d-d4e8-4ecf-9ac7-b81d5d47065f",
+        "21bf95a0-1e73-4590-b6a7-3c63e2654cd0"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_oct7_tyler",
