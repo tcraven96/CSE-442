@@ -5,23 +5,13 @@
     "name": "obj_dialogueCollisioner",
     "eventList": [
         {
-            "id": "4111180e-dee9-45c2-b123-a58068ee6480",
+            "id": "0c23a514-23a7-41aa-8388-e54fbf7ee482",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "2e4dc1ef-2fee-41cf-afa5-fa844211aab1",
+            "collisionObjectId": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "338ed7a9-01df-4299-8c40-3a31c1962543"
-        },
-        {
-            "id": "4a6ea60d-ec79-4f95-a7d8-7b44786bbe3d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
             "m_owner": "338ed7a9-01df-4299-8c40-3a31c1962543"
         }
     ],
@@ -44,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "65d6b93d-d4e8-4ecf-9ac7-b81d5d47065f",
-    "visible": true
+    "visible": false
 }
