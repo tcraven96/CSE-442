@@ -8,3 +8,5 @@ global.cooldown = 0;
 objplayer.x = 520;
 objplayer.y = 630;
 objplayer.visible = true;
+audio_sound_pitch(snd_rainfall, 0.5);
+
