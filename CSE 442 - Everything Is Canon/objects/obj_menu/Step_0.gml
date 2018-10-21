@@ -20,7 +20,10 @@ if(position_meeting(mouse_x, mouse_y, obj_hoverbox_exit)){
 if(position_meeting(mouse_x, mouse_y, obj_hoverbox_return)){
 	if(mouse_check_button_pressed(true)){
 		audio_play_sound(sound0, 0, 1);
-		room_goto_previous();	
+		objplayer.x = global.lastx;
+		objplayer.y = global.lasty;
+		objplayer.visible = true;
+		room_goto(global.roomloc);
 	}
 }
 //return to the main menu

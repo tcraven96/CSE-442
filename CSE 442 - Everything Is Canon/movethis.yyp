@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "03c50f84-63e4-4360-ba6e-c76e925a0d76",
+            "Value": {
+                "id": "72c952fe-3fa7-47eb-89f9-83f951994193",
+                "resourcePath": "sprites\\spr_enemy00\\spr_enemy00.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05943e0d-3879-4c36-8a3a-11f8662c4e9e",
             "Value": {
                 "id": "31a0b599-7b3a-4a76-8012-77bd4da508af",
@@ -441,7 +449,7 @@
         {
             "Key": "5d89a982-701d-40c8-8131-57c6021338e3",
             "Value": {
-                "id": "c28e6ac0-c997-4f52-b5f0-7370b5e0ebfb",
+                "id": "c17832d6-3b7d-4b7d-a072-dc20e6563b6b",
                 "resourcePath": "objects\\objsword\\objsword.yy",
                 "resourceType": "GMObject"
             }
@@ -531,6 +539,14 @@
             "Value": {
                 "id": "74007daa-796c-4b9e-847b-200b509ccea6",
                 "resourcePath": "objects\\objtitle_music\\objtitle_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73661c15-f33c-4732-aae6-5c6e1b46e5d5",
+            "Value": {
+                "id": "5d0d3942-8b54-45ee-af9a-5bca4bbc757b",
+                "resourcePath": "objects\\obj_warp2\\obj_warp2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -964,6 +980,14 @@
                 "id": "bfade08c-2869-480b-8e9a-f3985070deee",
                 "resourcePath": "sprites\\spr_upCollisioner\\spr_upCollisioner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9e830e0-884f-460a-9a2c-752c8ca5005e",
+            "Value": {
+                "id": "c807b38b-2c88-42ac-b8bc-934b241b01fe",
+                "resourcePath": "objects\\object15\\object15.yy",
+                "resourceType": "GMObject"
             }
         },
         {
