@@ -7,7 +7,7 @@ room_goto(room2);
 global.cooldown = 0;
 objplayer.x = 414;
 objplayer.y = 4909;
-audio_stop_all()
+audio_pause_sound(sound0);
 audio_play_sound(snd_rainfall, 1, true);
 global.sound = snd_rainfall;
 
