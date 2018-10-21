@@ -8,6 +8,9 @@ if(objtitle_menu.chkincrease== 1){
 if(position_meeting(mouse_x, mouse_y, objtitle_newgame_hoverbox)){
 	sprite_index = sprtitle_menu_newgame;
 	if(mouse_check_button_pressed(true)){
+		audio_stop_all();
+		audio_play_sound(sound0, 1, true);
+		global.sound = sound0;
 		room_goto_next()
 	}
 }

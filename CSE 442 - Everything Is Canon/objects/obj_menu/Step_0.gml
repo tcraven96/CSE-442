@@ -24,6 +24,7 @@ if(position_meeting(mouse_x, mouse_y, obj_hoverbox_return)){
 		objplayer.y = global.lasty;
 		objplayer.visible = true;
 		room_goto(global.roomloc);
+		audio_resume_sound(global.sound);
 	}
 }
 //return to the main menu
