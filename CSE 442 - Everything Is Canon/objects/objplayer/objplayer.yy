@@ -25,7 +25,17 @@
             "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
         },
         {
-            "id": "0e4448dd-d07c-4aef-8c3e-919b59de0718",
+            "id": "53689261-9385-423a-b641-56144e9b7d9e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "79322e1e-9f2b-4e19-a8ab-5457e1140807",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
+        },
+        {
+            "id": "4a1ea2b9-a6d2-4435-82ed-bfbe876cf624",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +45,7 @@
             "m_owner": "b409645e-46e7-4c0d-b1f4-b1754d9d5c11"
         },
         {
-            "id": "e2a7ca07-3e51-4231-beb3-676eaab4fc1a",
+            "id": "90915452-35d2-4812-bc56-1452940ff9a0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -48,7 +58,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -75,37 +85,9 @@
             "value": "12",
             "varName": "walking_speed",
             "varType": 1
-        },
-        {
-            "id": "8576e44a-9bd2-4702-94c4-5496ff3e3811",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "max_health",
-            "varType": 1
-        },
-        {
-            "id": "d9ea616d-b4f2-4513-b454-2283397279d6",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "curr_health",
-            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "c0a25718-28d4-4b56-85a5-d0a8d9d6a297",
+    "spriteId": "4fd8dbfe-9287-4734-b84d-710efbb8db4e",
     "visible": true
 }
