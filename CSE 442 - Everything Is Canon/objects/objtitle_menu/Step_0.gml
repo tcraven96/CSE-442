@@ -18,6 +18,12 @@ if(position_meeting(mouse_x, mouse_y, objtitle_newgame_hoverbox)){
 //load game hovered over
 else if(position_meeting(mouse_x, mouse_y, objtitle_loadgame_hoverbox)){
 	sprite_index = sprtitle_menu_loadgame;
+	if(mouse_check_button_pressed(true)){
+		audio_stop_all();
+		audio_play_sound(global.sound, 1, true);
+		audio_pause_sound(global.sound);
+		game_load("Save.dat");
+	}
 }
 
 
