@@ -6,6 +6,10 @@ if(position_meeting(mouse_x, mouse_y, obj_hoverbox_save)){
 	if(mouse_check_button_pressed(true)){
 		global.Save = true;
 		game_save("Save.dat")
+		instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
+		with(obj_confirmationText){
+			gameSavedText = true;
+		}
 	}
 }
 
@@ -35,6 +39,9 @@ if(position_meeting(mouse_x, mouse_y, obj_hoverbox_tomainmenu)){
 //opens Options menu NOT YET IMPLEMENTED
 if(position_meeting(mouse_x, mouse_y, obj_options_hoverbox)){
 	if(mouse_check_button_pressed(true)){
-		
+		instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
+		with(obj_confirmationText){
+			notImplementedText = true;
+		}
 	}
 }
