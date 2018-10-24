@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "6aad5d24-00bf-443c-90b7-58c0fa9c68da",
+            "Value": {
+                "id": "59d24f7f-677f-468b-9deb-ff0c954035c2",
+                "resourcePath": "rooms\\boss1\\boss1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6d2ae79e-7d76-4ab7-a753-d14faaddc056",
             "Value": {
                 "id": "ddce1a96-c799-4521-a842-ff1fb66b89aa",
@@ -671,6 +679,22 @@
             }
         },
         {
+            "Key": "76fdbe75-ddb9-4395-86a4-ab083833e2f5",
+            "Value": {
+                "id": "6be0bb1b-2c75-49ef-a946-c6d06e46bdba",
+                "resourcePath": "tilesets\\tl_bckgr_03\\tl_bckgr_03.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "771551b8-2996-45e0-9a1c-29571f2bd3f8",
+            "Value": {
+                "id": "85598fd1-05c4-4a21-88f8-0aeb25eaca14",
+                "resourcePath": "sprites\\sprite60\\sprite60.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "771dafdf-bc32-4e91-a2cf-e5a56e2476c4",
             "Value": {
                 "id": "4d610e14-5c3e-46f4-9d5e-81311720ba63",
@@ -716,6 +740,14 @@
                 "id": "904e9c47-fab3-419e-b40b-9b3ba6097c86",
                 "resourcePath": "sprites\\sprtitle_menu_exit\\sprtitle_menu_exit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d1f096c-9224-410d-8030-da1046da185d",
+            "Value": {
+                "id": "def8e78c-b7e7-4580-af9e-ade2d5178b64",
+                "resourcePath": "objects\\obj_warp5\\obj_warp5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1300,6 +1332,14 @@
                 "id": "fba5bd75-d888-42da-ba60-46d2fd479bff",
                 "resourcePath": "sprites\\sprtitle_snow\\sprtitle_snow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fec1678f-25f3-4a39-944e-dcf48db641c3",
+            "Value": {
+                "id": "f9a3ee37-e31f-41c6-b3df-020e2e6b3857",
+                "resourcePath": "objects\\obj_warp6\\obj_warp6.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
