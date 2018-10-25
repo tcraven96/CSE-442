@@ -1,3 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-cooldown =0;
+image_speed = 0;
+global.cooldown = 0;
+global.walkSpeed = 3.5;
+global.imgsped = 3.5 / 3;
+inv_frames = 0;
+curr_health = 10;
+max_health = 10;
+global.roomloc = room1;
+global.lastx = 0;
+global.lasty = 0;

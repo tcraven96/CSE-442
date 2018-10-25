@@ -8,6 +8,9 @@ if(objtitle_menu.chkincrease== 1){
 if(position_meeting(mouse_x, mouse_y, objtitle_newgame_hoverbox)){
 	sprite_index = sprtitle_menu_newgame;
 	if(mouse_check_button_pressed(true)){
+		audio_stop_all();
+		audio_play_sound(sound0, 1, true);
+		global.sound = sound0;
 		room_goto_next()
 	}
 }
@@ -15,6 +18,18 @@ if(position_meeting(mouse_x, mouse_y, objtitle_newgame_hoverbox)){
 //load game hovered over
 else if(position_meeting(mouse_x, mouse_y, objtitle_loadgame_hoverbox)){
 	sprite_index = sprtitle_menu_loadgame;
+	if(mouse_check_button_pressed(true)){
+		if(file_exists("Save.dat")){
+			game_load("Save.dat");
+			audio_stop_all();
+			//audio_pause_sound(global.sound)
+		}else{
+			instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
+		with(obj_confirmationText){
+			failedToLoadText = true;
+		}
+		}
+	}
 }
 
 

@@ -12,3 +12,9 @@ if keyboard_check(vk_down){
 if keyboard_check(vk_up){
 	y = y - 12;
 }
+
+image_angle -= 9;
+frames--;
+if(frames <= 0){
+	instance_destroy();
+}

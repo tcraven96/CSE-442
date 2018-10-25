@@ -2,3 +2,4 @@
 // You can write your code in this editor
 image_alpha = 0;
 objtitle_menu.chkincrease = 0;
+global.Save = false;
