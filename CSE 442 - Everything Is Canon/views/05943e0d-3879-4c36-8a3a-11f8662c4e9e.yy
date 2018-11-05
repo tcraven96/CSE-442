@@ -22,7 +22,8 @@
         "af30529c-0068-406f-82a7-cb9e5bd02d65",
         "84a4a02f-4823-4f81-86d1-5179ec2136fd",
         "7d1f096c-9224-410d-8030-da1046da185d",
-        "fec1678f-25f3-4a39-944e-dcf48db641c3"
+        "fec1678f-25f3-4a39-944e-dcf48db641c3",
+        "4a60eefa-d3b3-4a43-ad4b-d3f9377ed99d"
     ],
     "filterType": "GMObject",
     "folderName": "obj_environment",
