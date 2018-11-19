@@ -33,6 +33,7 @@ if(position_meeting(mouse_x, mouse_y, obj_hoverbox_return)){
 //return to the main menu
 if(position_meeting(mouse_x, mouse_y, obj_hoverbox_tomainmenu)){
 	if(mouse_check_button_pressed(true)){
+		instance_destroy(objplayer);
 		room_goto(title_screen);
 	}
 }

@@ -4,6 +4,7 @@ if (image_index > 5){
 	global.lastx = objplayer.x;
 	global.lasty = objplayer.y;
 	global.roomloc = room2;
+	objplayer.depth = 15;
 	room_goto(room2);
 	global.cooldown = 0;
 	objplayer.x = 414;

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "08985948-e283-4f4e-881e-773980cea514",
+            "Value": {
+                "id": "23fb9a18-15e4-474d-9d9f-8deb6879cb99",
+                "resourcePath": "objects\\obj_tower_solid\\obj_tower_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "090679e3-5461-47f6-8fde-7f0760933e0f",
             "Value": {
                 "id": "18ecef9d-6104-44fc-9291-db0fd6c4641b",
