@@ -1225,7 +1225,7 @@
         {
             "Key": "be100ccc-5662-4e97-a2f9-b18b3b8311a7",
             "Value": {
-                "id": "014f6ff4-b5e8-459a-88be-c42d541106df",
+                "id": "25d9f372-13b5-4b0f-8105-ab06640c4b78",
                 "resourcePath": "rooms\\rm_1\\rm_1.yy",
                 "resourceType": "GMRoom"
             }
@@ -1284,6 +1284,14 @@
                 "id": "9f6d88f4-1a90-4af4-b559-61890b1b61ee",
                 "resourcePath": "sprites\\spr_tower_openBack\\spr_tower_openBack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c34d6001-aed5-43d1-a864-a434c23b9baf",
+            "Value": {
+                "id": "85e91509-17ed-42ed-81b5-730f8e82d99c",
+                "resourcePath": "views\\e7dce460-c52b-4396-9b56-8665a7b58a45-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
