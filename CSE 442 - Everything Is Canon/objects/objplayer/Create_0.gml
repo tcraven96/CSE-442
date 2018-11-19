@@ -7,6 +7,6 @@ global.imgsped = 3.5 / 3;
 inv_frames = 0;
 curr_health = 10;
 max_health = 10;
-global.roomloc = room1;
+global.roomloc = rm_1;
 global.lastx = 0;
 global.lasty = 0;
