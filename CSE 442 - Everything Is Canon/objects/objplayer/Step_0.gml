@@ -74,6 +74,8 @@ if(inv_frames != 0)
 //player dies if curr_health is 0 or less
 if(curr_health <= 0)
 {
+	curr_health = 10;
+	game_save("continue.dat");
 	instance_destroy();
 }
 
