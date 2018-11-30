@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "66cbf18e-ddc3-46ed-8396-406ba44c0273",
+            "Value": {
+                "id": "4c1a8548-35ac-4d7a-9981-8077dd9c2bf6",
+                "resourcePath": "sprites\\menu_buttons_return_spr\\menu_buttons_return_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "682c2414-5f61-4ca2-877d-e2d13c325eb1",
             "Value": {
                 "id": "9e76bcde-c0a6-4e3d-8ed6-fcfe190cdd2e",
@@ -1331,6 +1339,14 @@
             "Value": {
                 "id": "31c76e75-3907-47da-93ec-8a05c7ac7c35",
                 "resourcePath": "sprites\\spr_ingamemenu_returntomainmenu\\spr_ingamemenu_returntomainmenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f88f292a-af4f-426b-8f3f-8a3bff051288",
+            "Value": {
+                "id": "1b60e063-803c-4745-8830-80ddb12d300a",
+                "resourcePath": "sprites\\menu_buttons_continue_spr\\menu_buttons_continue_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
