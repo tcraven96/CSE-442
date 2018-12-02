@@ -3,6 +3,8 @@
 
 global.lastx = objplayer.x;
 global.lasty = objplayer.y;
+
+
 if(keyboard_check(ord("D"))){
 	x+= global.walkSpeed;
 	image_speed = global.imgsped;

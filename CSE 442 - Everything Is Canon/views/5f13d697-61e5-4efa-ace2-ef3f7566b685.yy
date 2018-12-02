@@ -11,7 +11,9 @@
         "05ab2ad9-1d74-486e-bdd2-a07694ff6832",
         "a18605af-56fe-4721-b140-7d2945fa6843",
         "a7efc60e-09ff-4392-800d-2671713121b6",
-        "21bf95a0-1e73-4590-b6a7-3c63e2654cd0"
+        "21bf95a0-1e73-4590-b6a7-3c63e2654cd0",
+        "abd70b5a-3954-4e60-be5a-d139ac9625d7",
+        "4067396f-bdf0-45a0-9318-51a26bf77b1d"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_environment",
