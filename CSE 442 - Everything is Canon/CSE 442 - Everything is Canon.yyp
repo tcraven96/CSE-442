@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2d5eb918-5930-4d05-9d28-a9fe4b698bea",
+            "Value": {
+                "id": "a0406f09-6b50-4642-bb5d-adc0faf8be49",
+                "resourcePath": "sprites\\return_hoverbox_spr\\return_hoverbox_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2dadb2db-bcbc-411f-ac80-d7545f1b8a70",
             "Value": {
                 "id": "f4b8dca7-29d7-4aba-a942-7565aaa1c540",
@@ -799,6 +807,14 @@
             }
         },
         {
+            "Key": "60f648c6-b377-4861-ab2c-e7956fb6fa13",
+            "Value": {
+                "id": "af8aa8f0-ba21-4759-9ac0-91b997ba5f7d",
+                "resourcePath": "objects\\death_ui_return_hoverbox\\death_ui_return_hoverbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6250104f-24f5-43e3-99a6-8f92a4d404b1",
             "Value": {
                 "id": "f9c283c5-64dd-4184-9fea-d81d3af39b17",
@@ -827,6 +843,14 @@
             "Value": {
                 "id": "f22f6114-d2b2-470a-8155-bda51e2b71ac",
                 "resourcePath": "sprites\\spr_dialogueCollisioner\\spr_dialogueCollisioner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66cbf18e-ddc3-46ed-8396-406ba44c0273",
+            "Value": {
+                "id": "1b728385-8d88-4417-8a79-94f119de13e8",
+                "resourcePath": "sprites\\menu_buttons_return_spr\\menu_buttons_return_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -988,6 +1012,14 @@
                 "id": "3d83d202-f9e2-4271-ba0b-4f0b9c8c7c0d",
                 "resourcePath": "sprites\\sprtitle_menu_exit\\sprtitle_menu_exit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7da47bdc-a20e-4909-b5f6-0858aca59109",
+            "Value": {
+                "id": "bddb6447-e65d-4339-b00f-358c5f0feca5",
+                "resourcePath": "objects\\death_ui_continue_hoverbox\\death_ui_continue_hoverbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1183,6 +1215,14 @@
             }
         },
         {
+            "Key": "a0e34748-96ae-4db7-917c-a90a7a6a1201",
+            "Value": {
+                "id": "7674f08d-d2ee-4deb-90af-f666e5cd2c45",
+                "resourcePath": "sprites\\continue_hoverbox_spr\\continue_hoverbox_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a0e7af0f-c2af-4d98-a3e9-d0d1a24f8362",
             "Value": {
                 "id": "93e20361-2913-4bd8-967a-7f4702e254bb",
@@ -1231,11 +1271,27 @@
             }
         },
         {
+            "Key": "a3d0ba7a-692c-4835-b5f3-e1d31e835c64",
+            "Value": {
+                "id": "bf61ed84-f7a6-4c87-8de6-dd2fc6663c2c",
+                "resourcePath": "objects\\death_ui_menu_default\\death_ui_menu_default.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a50fb53c-7a19-44a3-bd69-2841997ed660",
             "Value": {
                 "id": "9d5ea1eb-b433-4ed2-b23e-6b4bb8548972",
                 "resourcePath": "sprites\\spr_leftCollisioner\\spr_leftCollisioner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5bd9d62-1e88-40aa-8a65-105f818c47b0",
+            "Value": {
+                "id": "42ce46f3-c729-4ce7-88a1-9d69f9bf6392",
+                "resourcePath": "rooms\\death_menu\\death_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1251,6 +1307,14 @@
             "Value": {
                 "id": "9952d250-28ba-430b-8a66-81174f79f008",
                 "resourcePath": "sprites\\spr_boss_gate\\spr_boss_gate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9776b20-314f-473f-ba13-6d2a16e1941c",
+            "Value": {
+                "id": "afeb7974-297b-45cf-a237-522985b25cc9",
+                "resourcePath": "sprites\\menu_buttons_spr\\menu_buttons_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1783,6 +1847,14 @@
             }
         },
         {
+            "Key": "f3381eae-3762-4df7-80cd-649fff604915",
+            "Value": {
+                "id": "fb5f383c-caeb-4707-b816-1bd5a1a0e8b6",
+                "resourcePath": "sprites\\continue_hoverbox_spr1\\continue_hoverbox_spr1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f4c0d436-4fdf-40b1-84ec-54201c036f99",
             "Value": {
                 "id": "16353a73-52ee-4530-ad29-6118f3ea4d9d",
@@ -1820,6 +1892,14 @@
                 "id": "7b3fe270-1a80-47d4-80db-43d6db50c7ef",
                 "resourcePath": "objects\\obj_hoverbox_slot3\\obj_hoverbox_slot3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f88f292a-af4f-426b-8f3f-8a3bff051288",
+            "Value": {
+                "id": "d947e5be-d945-4eb6-a3e5-d862e46d7c25",
+                "resourcePath": "sprites\\menu_buttons_continue_spr\\menu_buttons_continue_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
