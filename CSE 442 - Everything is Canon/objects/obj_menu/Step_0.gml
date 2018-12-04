@@ -35,6 +35,9 @@ else if(position_meeting(mouse_x, mouse_y, obj_hoverbox_return)){
 else if(position_meeting(mouse_x, mouse_y, obj_hoverbox_tomainmenu)){
 	sprite_index = spr_ingamemenu_returntomain;
 	if(mouse_check_button_pressed(true)){
+		global.realDeath = false;
+		instance_destroy(objplayer);
+		//global.realDeath = true;
 		room_goto(title_screen);
 	}
 }
@@ -58,7 +61,8 @@ else if(obj_menu.savemenu){
 	if(position_meeting(mouse_x, mouse_y, obj_hoverbox_slot1)){
 		sprite_index = spr_ingamemenu_save_slot1;
 		if(mouse_check_button_pressed(true)){
-			game_save("Save1.dat")
+			room_restart();
+			game_save("Save1.dat");
 			instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
 			with(obj_confirmationText){
 				gameSavedText1 = true;
@@ -78,7 +82,9 @@ else if(obj_menu.savemenu){
 	else if(position_meeting(mouse_x, mouse_y, obj_hoverbox_slot2)){
 		sprite_index = spr_ingamemenu_save_slot2;
 		if(mouse_check_button_pressed(true)){
-			game_save("Save2.dat")
+			room_restart();
+			game_save("Save2.dat");
+			///file_delete("Save2.dat")
 			instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
 			with(obj_confirmationText){
 				gameSavedText2 = true;
@@ -98,7 +104,9 @@ else if(obj_menu.savemenu){
 	else if(position_meeting(mouse_x, mouse_y, obj_hoverbox_slot3)){
 		sprite_index = spr_ingamemenu_save_slot3;
 		if(mouse_check_button_pressed(true)){
-			game_save("Save3.dat")
+			room_restart();
+			game_save("Save3.dat");
+			//file_delete("Save3.dat")
 			instance_create_layer(64, 64, "onScreenText", obj_confirmationText)
 			with(obj_confirmationText){
 				gameSavedText3 = true;

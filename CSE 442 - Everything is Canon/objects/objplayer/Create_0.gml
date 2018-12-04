@@ -11,3 +11,4 @@ global.hasKey = false;
 inv_frames = 0;
 curr_health = 10;
 max_health = 10;
+global.realDeath = true;

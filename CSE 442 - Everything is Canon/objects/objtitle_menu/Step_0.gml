@@ -54,6 +54,7 @@ else if(objtitle_menu.loadmenu){
 		if(mouse_check_button_pressed(true)){
 			if(file_exists("Save1.dat")){
 			game_load("Save1.dat");
+			//file_delete("Save1.dat");
 			audio_stop_all();
 			//audio_pause_sound(global.sound)
 			}else{
@@ -69,6 +70,7 @@ else if(objtitle_menu.loadmenu){
 		if(mouse_check_button_pressed(true)){
 			if(file_exists("Save2.dat")){
 			game_load("Save2.dat");
+			//file_delete("Save2.dat");
 			audio_stop_all();
 			//audio_pause_sound(global.sound)
 			}else{
@@ -84,6 +86,7 @@ else if(objtitle_menu.loadmenu){
 		if(mouse_check_button_pressed(true)){
 			if(file_exists("Save3.dat")){
 			game_load("Save3.dat");
+			//file_delete("Save3.dat");
 			audio_stop_all();
 			//audio_pause_sound(global.sound)
 			}else{
