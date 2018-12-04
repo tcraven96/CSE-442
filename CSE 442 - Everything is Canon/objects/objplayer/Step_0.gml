@@ -80,6 +80,7 @@ if(curr_health <= 0)
 	curr_health = 10;
 	game_save("continue.dat");
 	instance_destroy();
+	
 }
 
 
