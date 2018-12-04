@@ -12,3 +12,4 @@ inv_frames = 0;
 curr_health = 5;
 max_health = 5;
 global.realDeath = true;
+global.ply_direction = 0;
