@@ -11,5 +11,5 @@ if(image_alpha > 0.5){
 
 
 if (image_index > 32){
-	room_goto_next();
+	room_goto(rm_1);
 }

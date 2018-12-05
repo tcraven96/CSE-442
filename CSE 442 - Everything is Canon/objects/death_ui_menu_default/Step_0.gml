@@ -9,7 +9,8 @@ if(position_meeting(mouse_x, mouse_y, death_ui_continue_hoverbox)){
 }else if(position_meeting(mouse_x, mouse_y, death_ui_return_hoverbox)){
 	sprite_index = menu_buttons_return_spr;
 	if(mouse_check_button_pressed(true)){
-			room_goto(title_screen);
+			//room_goto(title_screen);
+			game_restart();
 	}
 }else{
 	sprite_index = menu_buttons_spr;	
