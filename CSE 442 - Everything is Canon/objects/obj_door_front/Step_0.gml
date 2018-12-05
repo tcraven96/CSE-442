@@ -3,13 +3,9 @@
 if (image_index > 5){
 	global.lastx = objplayer.x;
 	global.lasty = objplayer.y;
-	global.roomloc = room2;
+	global.roomloc2d = rm_two_dimensional_view;
 	objplayer.depth = 15;
-	room_goto(room2);
-	global.cooldown = 0;
-	objplayer.x = 414;
-	objplayer.y = 4909;
-	audio_pause_sound(sound0);
-	audio_play_sound(snd_rainfall, 1, true);
-	global.sound = snd_rainfall;
+	room_goto(rm_two_dimensional_view);
+	global.realDeath = false;
+	instance_destroy(objplayer);
 }
